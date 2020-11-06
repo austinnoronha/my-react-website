@@ -2,6 +2,12 @@
 
 This is a complete working HTML site with ReactJs, CSS3 & Flex.
 
+## Live Site
+
+[Live Site](https://austinnoronha.github.io/my-react-website/)
+
+## Working Gif
+
 <img src="https://github.com/austinnoronha/UI-References-and-Screenshots/blob/main/my-react-website/website_preview.gif?raw=true" title="HTML site with ReactJs, CSS3 & Flex" alt="HTML site with ReactJs, CSS3 & Flex"/>
 
 ## The Learning
