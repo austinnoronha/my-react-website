@@ -1,5 +1,5 @@
 # Node Image is required for builds
-FROM node:latest
+FROM node:lts
 
 # Optional but good to have
 MAINTAINER Austin <austindevsmash@gmail.com>
