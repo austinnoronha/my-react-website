@@ -1,0 +1,110 @@
+.Header{
+    text-align: left;
+    vertical-align: middle;
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.BranInfo{
+    text-align: left;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+  
+.App-logo {
+    height: 8vmin;
+    pointer-events: none;
+}
+  
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+}
+  
+  
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+  
+.TopNav{
+    list-style: none;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 350px;
+}
+
+.TopNav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.MobileMenuClose,
+.BtnMobileMenu{
+    display: none;
+}
+
+.BtnMobileMenu{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    flex-direction: column;
+    flex-flow: column;
+    color: #fff;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.BtnMobileMenu div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .TopNav{
+        display: none;
+    }
+    
+    .BtnMobileMenu{
+        display: flex;
+    }
+
+    .MobileMenuOpen{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-content: space-around;
+        background-color: #282c34;
+    }
+
+    .MobileMenuOpen a{
+        color: #fff;
+        padding: 10px;
+        display: block;
+    } 
+
+    .MobileMenuOpen a:hover{
+        transform: scale(1.1);
+    }
+}
