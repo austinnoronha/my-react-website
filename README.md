@@ -1,4 +1,35 @@
-# Getting Started with Create React App
+# Overview
+
+This is a complete working HTML site with ReactJs, CSS3 & Flex.
+
+## The Learning
+
+This website can be used to learn and build a website with ReactJs + Flex in CSS.
+It's a fun website wherein you will learn to create:
+- Components
+- Pages
+- Static Data Sets
+- Simple Form
+- Flex Styling
+- Navbar State Managment
+
+## Change The Website Name
+
+to change the website name please edit `.env` & `.env.development` under ` / ` folder
+
+<code>
+REACT_APP_SITE_TITLE="My React!"
+</code>
+
+## Build Homepage Setting
+
+The build homepage setting is ` "homepage": "." ` in the ` package.json ` file
+
+--- 
+
+Note: you can use npx or yarn as your package manager, but I prefer ` yarn ` as its caches packages locally.
+
+# App created with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
