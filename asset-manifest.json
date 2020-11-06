@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.82a07da5.chunk.css",
-    "main.js": "/static/js/main.1df107e1.chunk.js",
-    "main.js.map": "/static/js/main.1df107e1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bf4897fa.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bf4897fa.js.map",
-    "static/js/2.024ee4d6.chunk.js": "/static/js/2.024ee4d6.chunk.js",
-    "static/js/2.024ee4d6.chunk.js.map": "/static/js/2.024ee4d6.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.82a07da5.chunk.css.map": "/static/css/main.82a07da5.chunk.css.map",
-    "static/js/2.024ee4d6.chunk.js.LICENSE.txt": "/static/js/2.024ee4d6.chunk.js.LICENSE.txt",
-    "static/media/aboutus.629d7f38.svg": "/static/media/aboutus.629d7f38.svg",
-    "static/media/contactus.2b302f1f.png": "/static/media/contactus.2b302f1f.png",
-    "static/media/hero.eb29246b.jpg": "/static/media/hero.eb29246b.jpg",
-    "static/media/logo.2d27ead7.svg": "/static/media/logo.2d27ead7.svg"
+    "main.css": "/my-react-website/static/css/main.82a07da5.chunk.css",
+    "main.js": "/my-react-website/static/js/main.1df107e1.chunk.js",
+    "main.js.map": "/my-react-website/static/js/main.1df107e1.chunk.js.map",
+    "runtime-main.js": "/my-react-website/static/js/runtime-main.9ffd048b.js",
+    "runtime-main.js.map": "/my-react-website/static/js/runtime-main.9ffd048b.js.map",
+    "static/js/2.024ee4d6.chunk.js": "/my-react-website/static/js/2.024ee4d6.chunk.js",
+    "static/js/2.024ee4d6.chunk.js.map": "/my-react-website/static/js/2.024ee4d6.chunk.js.map",
+    "index.html": "/my-react-website/index.html",
+    "static/css/main.82a07da5.chunk.css.map": "/my-react-website/static/css/main.82a07da5.chunk.css.map",
+    "static/js/2.024ee4d6.chunk.js.LICENSE.txt": "/my-react-website/static/js/2.024ee4d6.chunk.js.LICENSE.txt",
+    "static/media/aboutus.629d7f38.svg": "/my-react-website/static/media/aboutus.629d7f38.svg",
+    "static/media/contactus.2b302f1f.png": "/my-react-website/static/media/contactus.2b302f1f.png",
+    "static/media/hero.eb29246b.jpg": "/my-react-website/static/media/hero.eb29246b.jpg",
+    "static/media/logo.2d27ead7.svg": "/my-react-website/static/media/logo.2d27ead7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bf4897fa.js",
+    "static/js/runtime-main.9ffd048b.js",
     "static/js/2.024ee4d6.chunk.js",
     "static/css/main.82a07da5.chunk.css",
     "static/js/main.1df107e1.chunk.js"
