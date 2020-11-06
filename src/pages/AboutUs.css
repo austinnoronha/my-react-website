@@ -1,0 +1,41 @@
+.PageAboutUs{
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: calc(90vh - 100px);
+}
+
+.PageAboutUs div:nth-child(1){
+    width: 45%;
+}
+
+.PageAboutUs div:nth-child(2){
+    width: 55%;
+}
+
+.AboutUsImg {
+    display: inline-flex;
+    flex: 1;
+    align-items: stretch;
+}
+
+.AboutUsImg img {
+    border: 5px solid #e6e6e6;
+    border-radius: 50%;
+}
+
+.AboutUsContent{
+    padding-right: 30px;
+}
+
+.AboutUsContent h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.AboutUsContent p{
+    margin-bottom: 20px;
+}
