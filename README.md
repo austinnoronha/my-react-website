@@ -33,6 +33,12 @@ REACT_APP_SITE_TITLE="My React!"
 
 The build homepage setting is ` "homepage": "." ` in the ` package.json ` file
 
+# Using DOCKER for Deployment
+
+I have tried a simple docker integration, check out [Dockerfile](Dockerfile)
+
+You can check my docker image - (austindevsmash/html5-react-one-page-website)[https://hub.docker.com/repository/docker/austindevsmash/html5-react-one-page-website]
+
 --- 
 
 Note: you can use npx or yarn as your package manager, but I prefer ` yarn ` as its caches packages locally.
