@@ -9,15 +9,22 @@
     justify-content: space-between;
     font-size: calc(10px + 2vmin);
     color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
 }
 
-.BranInfo{
+.BrandInfo{
+    cursor: pointer;
     text-align: left;
     vertical-align: middle;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
 }
   
 .App-logo {
@@ -95,12 +102,19 @@
     }
 
     .MobileMenuOpen{
+        margin-top: 62px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         justify-items: center;
         align-content: space-around;
         background-color: #282c34;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 2;
     }
 
     .MobileMenuOpen a{

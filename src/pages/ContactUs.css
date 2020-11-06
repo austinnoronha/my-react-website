@@ -1,0 +1,101 @@
+.PageContactUs{
+    height: 100vh;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    position: relative;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.PageContactUs h2{
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.PageContactUs h3{
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.PageContactUs p{
+    margin-bottom: 40px;
+}
+
+.PageContactUs button{
+    display: block;
+    width: 200px;
+    padding: 0.4em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 2px solid #164c5a;
+    border-radius: 20px;
+    background-color: #60d8f9;
+    outline: none;
+}
+
+.PageContactUs button:hover{
+    background-color: #57bcd8;
+}
+
+.PageContactUs form{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.PageContactUs input{
+    border-radius: 5px;
+    border: 2px solid #164c5a;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    outline: none;
+    width: 450px;
+}
+
+.PageContactUs input:focus{
+    background-color: #ddf5fc;
+}
+
+.PageContactUs label{
+    margin-bottom: 20px;
+}
+
+.PageContactUs label:nth-child(3){
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .ContactUsContent {
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+
+    .PageContactUs h3{
+        font-size: 1.2rem;
+    }
+    
+    .PageContactUs p{
+        font-size: 1rem;
+    }
+    
+    .PageContactUs input{
+        width: 90%;
+    }
+
+}

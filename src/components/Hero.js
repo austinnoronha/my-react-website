@@ -1,6 +1,7 @@
 import React from 'react';
 import HeroImg from '../assets/hero.jpg';
 import './Hero.css';
+import HeroData from '../data/HeroData';
 
 function Hero(){
 
@@ -9,11 +10,11 @@ function Hero(){
     };
 
     return (
-        <div className="HeroBg" style={heroStyle}>
+        <div className="HeroBg" style={heroStyle} id="sectionHome">
             <section>
-                <h1>Welcome to the world of React!</h1>
-                <h2>This is a sample Hero section with some content.</h2>
-                <a href="https://github.com/austinnoronha/">Go ahead...</a>
+                <h1>{HeroData.heading}</h1>
+                <h2>{HeroData.subHeading}</h2>
+                <a href="https://github.com/austinnoronha/">{HeroData.btnText}</a>
             </section>
         </div>
     );

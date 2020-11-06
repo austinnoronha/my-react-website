@@ -1,28 +1,55 @@
 import React, { useState } from 'react';
-import ReactDOM from 'react-dom';
+import { Link, animateScroll as scroll } from "react-scroll";
 import logo from '../logo.svg';
 import './Header.css';
 
 function Header(){
 
     const [isActive, setActive] = useState(false);
-    let classTopNav = "";
+    
     const toggleClass = () => {
         setActive(!isActive);
+    };
+
+    const scrollToTop = () => {
+        scroll.scrollToTop();
     };
 
     return (
         <div>
             <header className="Header">
-                <div className="BranInfo">
-                    <img src={logo} className="App-logo" alt="logo" />
-                    <b>Brand.com</b>
+                <div className="BrandInfo" onClick={scrollToTop}>
+                    <img src={logo} className="App-logo" alt="MyReact" title="MyReact" />
+                    <b>MyReact</b>
                 </div>
                 
                 <ul className="TopNav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <Link activeClass="active"
+                        to="sectionHome"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}>Home</Link>
+                    </li>
+                    <li>
+                        <Link 
+                        activeClass="active"
+                        to="sectionAboutUs"
+                        spy={true}
+                        smooth={true}
+                        offset={-90}
+                        duration={500}>About</Link>
+                    </li>
+                    <li>
+                        <Link 
+                        activeClass="active"
+                        to="sectionContactUs"
+                        spy={true}
+                        smooth={true}
+                        offset={-20}
+                        duration={500}>Contact</Link>
+                    </li>
                 </ul>
 
                 <button className="BtnMobileMenu" onClick={toggleClass}>
@@ -34,9 +61,35 @@ function Header(){
             
                 
             <ul className={isActive ? 'MobileMenuOpen': 'MobileMenuClose'} >
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li>
+                    <Link activeClass="active"
+                    to="sectionHome"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}
+                    onClick={toggleClass}>Home</Link>
+                </li>
+                <li>
+                    <Link 
+                    activeClass="active"
+                    to="sectionAboutUs"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}
+                    onClick={toggleClass}>About</Link>
+                </li>
+                <li>
+                    <Link 
+                    activeClass="active"
+                    to="sectionContactUs"
+                    spy={true}
+                    smooth={true}
+                    offset={-10}
+                    duration={500}
+                    onClick={toggleClass}>Contact</Link>
+                </li>
             </ul>
         </div>
     );

@@ -24,3 +24,7 @@ code {
   margin: 100px 80px;
   width: calc(100% - 160px);
 }
+
+a{
+  cursor: pointer;
+}

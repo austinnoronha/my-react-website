@@ -1,5 +1,5 @@
 .HeroBg{
-    height: calc(100vh - 65px);
+    height: 100vh;
 
     background-size: cover;
     background-position: center center;
