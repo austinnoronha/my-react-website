@@ -2,6 +2,8 @@
 
 This is a complete working HTML site with ReactJs, CSS3 & Flex.
 
+<img src="https://github.com/austinnoronha/UI-References-and-Screenshots/blob/main/my-react-website/website_preview.gif?raw=true" title="HTML site with ReactJs, CSS3 & Flex" alt="HTML site with ReactJs, CSS3 & Flex"/>
+
 ## The Learning
 
 This website can be used to learn and build a website with ReactJs + Flex in CSS.
