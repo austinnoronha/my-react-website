@@ -54,6 +54,11 @@
 .TopNav a{
     color: #fff;
     text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+.TopNav a:hover{
+    font-size: 105%;
 }
 
 .MobileMenuClose,
